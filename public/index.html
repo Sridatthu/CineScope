@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineScope!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      padding: 20px 10px;
+      text-align: center;
+    }
+
+    .footer .footer-sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer .section {
+      flex: 1 1 200px;
+      margin: 10px;
+    }
+
+    .footer .section h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #f9f9f9;
+    }
+
+    .footer .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer .section ul li {
+      margin: 5px 0;
+    }
+
+    .footer .section ul li a {
+      color: #aaaaaa;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer .section ul li a:hover {
+      color: #ffffff;
+    }
+
+    .footer .download-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .footer .download-icons img {
+      width: 120px;
+      margin: 0 10px;
+    }
+
+    .footer .copyright {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #666666;
+    }
+
+    @media (max-width: 600px) {
+      .footer .footer-sections {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .footer .section {
+        text-align: center;
+      }
+
+      .footer .download-icons img {
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <footer class="footer">
+    <div class="footer-sections">
+      <!-- Section 1 -->
+      <div class="section">
+        <h3>CineScope</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Use</a></li>
+        </ul>
+      </div>
+      <!-- Section 2 -->
+      <div class="section">
+        <h3>Top Links</h3>
+        <ul>
+          <li><a href="#shows">Popular Shows</a></li>
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#Dramas">Dramas</a></li>
+         
+        </ul>
+      </div>
+      <!-- Section 3 -->
+      <div class="section">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#HelpCenter">Help Center</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#feedback">Give Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Download Icons -->
+    <div class="download-icons">
+      <a href="#googleplay">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Download on Google Play">
+      </a>
+      <a href="#appstore">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Download_on_the_App_Store_RGB_blk.svg/1200px-Download_on_the_App_Store_RGB_blk.svg.png"" alt="Download on the App Store">
+      </a>
+    </div>
+    <!-- Copyright -->
+    <p class="copyright">© 2024 CineScope All Rights Reserved.</p>
+  </footer
+  <script type="module" src="/src/index.js"></script>
+</body>
+
+</html>
