@@ -1,6 +1,11 @@
 # CineScope
 # Movie Recommender React App
 
+## Deployed Link:
+
+https://mycinescope.netlify.app/
+
+## Below are the website shot
 ![Movie Recommender](https://github.com/Sridatthu/CineScope/blob/main/home.png)
 ![Movie Recommender2](https://github.com/Sridatthu/CineScope/blob/main/home2.png)
 
